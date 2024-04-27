@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+	width:100%;
+	margin:auto;
+}
+@media only screen and (max-width: 480px){
+    body{
+        font-size:30px;
+    }
+}
+body{
+	background-color:#D9570C;
+	color:#222419;
+	font-family:'Roboto Condensed', sans-serif;
+	line-height:18px;
+    font-size:1.4rem;
+}
+.container{
+	background-color:#DED4CB;
+	margin-left:auto;
+    max-width: 800px;
+}
+#topFixedNavbar1 li{
+    font-variant: small-caps;
+    font-weight:bold;
+}
+#topFixedNavbar1 .active{
+    color:#fafafa;
+}
+#summary p a{
+    text-decoration: none;
+    font-variant: small-caps;
+    color:#6B4A28;
+}
+h1, h5{
+    font-variant: small-caps;
+    text-decoration: none;
+    font-weight: bold;
+    color:#6B4A28;
+}
+#summaryServices ul{
+    list-style: inside;
+    list-style-type: square;
+    font-size:12px;
+    font-style: italic;
+}
+#summaryServices p{
+    font-weight: bold;
+    margin-top: .5em;
+    margin-bottom: .2em;
+}
+#contactInfo{
+    font-size:1em;
+    line-height: 15px;
+    background: #fff;
+    padding: 20px;
+}
+p a, h5 a, #myAddress address a{
+    text-decoration:none;
+    color:#6B4A28;
+    font-variant:small-caps;
+    font-weight: bold;
+}
+#myAddress{
+    line-height: .2em;
+    font-size-adjust: .2em;
+}
+#myAddress address{
+    margin-bottom: .5em;
+    font-size:11px;
+}
+
+#myAddress address strong{
+    font-variant: small-caps;
+}
+#homeImage{
+    padding-top:12px;
+}
+#findUs{
+    background: #fff;
+}
+#findUs address{
+    font-style: italic;
+    font-size: 0.9em;
+}
+h2{
+    color:#6B4A28;
+    text-align: center;
+}
+#findUs h3{
+    font-weight: bold;
+    color: #6B4A28;
+    font-variant:small-caps;
+    text-align: left;
+    font-size:1.5em;
+}
+#findUs pre{
+    background: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+#findUs a{
+    color: black;
+    font-size:0.9em;
+}
+.panel-footer{
+    clear: both;
+    text-align: center;
+    font-size:.8em;
+    line-height: .7em;
+    margin-top:5px;
+    background:none;
+}
+.panel-footer a{
+    text-decoration: none;
+    font-variant: small-caps !important;
+    color: #6B4A28;
+    font-weight: bold;
+}
+.panel-footer a:hover{
+    color:#fff;
+}
+#patientInfo li{
+    list-style: square;
+    list-style-position: outside;
+    margin-top:1em;
+}
+#map-container{
+	height:300px;
+}
+.coronavirus{
+	padding-top: 80px;
+
+}
